@@ -1,0 +1,36 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "start",
+          "build",
+          "eject"
+        ]
+      }
+    }
+  },
+  "targetDefaults": {
+    "start": {
+      "dependsOn": [
+        "^start"
+      ]
+    },
+    "dev": {
+      "dependsOn": [
+        "^start"
+      ]
+    },
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "eject": {
+      "dependsOn": [
+        "^eject"
+      ]
+    }
+  }
+}
