@@ -5,7 +5,7 @@ import {Policies} from 'policies';
 function App() {
   return (
     <div className="App">
-      <h1>Main BSN app</h1>
+      <h1>Main BSN app 2</h1>
       <Dashboard />
       <Policies />
     </div>
