@@ -3,8 +3,8 @@ import React from 'react';
 
 export function Policies() {
     return (
-        <header>
+        <h1>
             Policies package
-        </header>
+        </h1>
     );
 }

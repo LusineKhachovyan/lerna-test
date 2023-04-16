@@ -3,8 +3,8 @@ import React from 'react';
 
 export function Dashboard() {
     return (
-        <header>
+        <h1>
             Dashboard package
-        </header>
+        </h1>
     );
 }
