@@ -9,7 +9,7 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 function Policies() {
-    return (React__default["default"].createElement("h1", null, "Policies package 2"));
+    return (React__default["default"].createElement("h1", null, "Policies package 3"));
 }
 
 exports.Policies = Policies;
