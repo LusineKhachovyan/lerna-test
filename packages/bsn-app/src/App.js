@@ -1,6 +1,6 @@
 import './App.css';
-import {Dashboard} from 'dashboard';
-import {Policies} from 'policies';
+import { Dashboard } from 'dashboard';
+import { Policies } from 'policies';
 
 function App() {
   return (
