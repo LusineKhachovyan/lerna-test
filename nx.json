@@ -6,6 +6,7 @@
         "cacheableOperations": [
           "start",
           "build",
+          "test",
           "eject"
         ]
       }
@@ -30,6 +31,11 @@
     "eject": {
       "dependsOn": [
         "^eject"
+      ]
+    },
+    "test": {
+      "dependsOn": [
+        "^test"
       ]
     }
   }
