@@ -1,0 +1,3 @@
+[submodule "packages/bsn"]
+	path = packages/bsn
+	url = ../nx-test.git
